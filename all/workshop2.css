@@ -1,0 +1,14 @@
+input[type="button"]
+{
+    height: 50px;
+    width: 50px;
+}
+input[type="text"]
+{
+    height: 30px;
+    width:220px;
+}
+span.bs
+{
+    margin-left: -4px;
+}

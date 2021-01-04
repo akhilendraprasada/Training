@@ -1,0 +1,9 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+}
+div :fullscreen
+{
+    background-color: rgb(201, 25, 25);
+}

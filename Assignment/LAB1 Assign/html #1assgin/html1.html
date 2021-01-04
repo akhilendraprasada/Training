@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<h1>Veronica Creators</h1>
+<head>
+    <title>Registration form</title>
+</head>
+<body>
+    <form>
+        Name: <input type="text" size="7" maxlength="7"><br>
+        Contact: <input type="tel" maxlength="10" pattern="^[1-9]+[0-9]{9}"><br>
+        email: <input type="email" ><br>
+
+        <h2>payment</h2><br>
+
+        <label for="payment"> Use using credit or debit card::</label>
+        <select name="payment" id="payment">
+        <option value="icici">ICICI</option>
+        <option value="sbi">SBI</option>
+        <option value="hdfc">HDFC</option>
+        <option value="punjab">Bank of Punjab</option>
+    </select><br><br>
+    Card No: <input type="number"><br>
+    CVV: <input type="number" size="3"><br>
+    Expiry date: <input type="date"><br>
+    Card holder Name: <input type="text"><br><br>
+    <input type="submit"><br><br>
+    <h4>Login Details</h4>
+    <label for="User">username</label><br>
+    <input type="text" maxlength="8" placeholder="Enter Username" name="User" required><br><br>
+    <label for="pwd">Password</label>
+    <input type="password" placeholder="Password" name="pwd" required><br>
+    <label for="pwd">confirm password</label>
+    <input type="password" placeholder="confirm password" name="pwd" required><br>
+    <input type="submit">
+    </form>
+</body>

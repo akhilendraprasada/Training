@@ -1,0 +1,48 @@
+body {
+    background-color: tomato ;
+}
+header{
+    color:whitesmoke;
+    width: 30%;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    
+}
+article{
+    color: whitesmoke;
+    width: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+section
+{
+    color: whitesmoke;
+    width: 30%;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: table;
+       
+    
+}
+nav{
+    color: whitesmoke;
+    width: 30%;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+aside{
+    color: whitesmoke;
+    width: 30%;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+footer{
+    color: whitesmoke;
+    width: 30%;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+        
+}
